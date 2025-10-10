@@ -1,0 +1,171 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Travel Explorer - Discover Your Next Adventure</title>
+    <link rel="stylesheet" href="css/style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+</head>
+<body>
+    <!-- Header -->
+    <header class="header">
+        <nav class="navbar">
+            <div class="nav-container">
+                <div class="logo">
+                    <i class="fas fa-globe-americas"></i>
+                    <span>Travel Explorer</span>
+                </div>
+                <ul class="nav-menu">
+                    <li><a href="#home" class="nav-link">Home</a></li>
+                    <li><a href="#destinations" class="nav-link">Destinations</a></li>
+                    <li><a href="#gallery" class="nav-link">Gallery</a></li>
+                    <li><a href="#weather" class="nav-link">Weather</a></li>
+                </ul>
+                <div class="hamburger">
+                    <span class="bar"></span>
+                    <span class="bar"></span>
+                    <span class="bar"></span>
+                </div>
+            </div>
+        </nav>
+    </header>
+
+    <!-- Hero Section -->
+    <section id="home" class="hero">
+        <div class="hero-content">
+            <h1 class="hero-title">Discover Your Next Adventure</h1>
+            <p class="hero-subtitle">Explore amazing destinations, view stunning photos, and check weather conditions all in one place</p>
+            
+            <!-- Search Bar -->
+            <div class="search-container">
+                <div class="search-box">
+                    <input type="text" id="destination-search" placeholder="Search for a destination..." />
+                    <button id="search-btn" class="search-btn">
+                        <i class="fas fa-search"></i>
+                    </button>
+                </div>
+                <div class="search-suggestions" id="suggestions"></div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Destinations Section -->
+    <section id="destinations" class="destinations">
+        <div class="container">
+            <h2 class="section-title">Popular Destinations</h2>
+            <div class="destinations-grid" id="destinations-grid">
+                <!-- Destination cards will be populated by JavaScript -->
+            </div>
+        </div>
+    </section>
+
+    <!-- Selected Destination Details -->
+    <section id="destination-details" class="destination-details hidden">
+        <div class="container">
+            <button id="back-btn" class="back-btn">
+                <i class="fas fa-arrow-left"></i> Back to Destinations
+            </button>
+            <div class="destination-info">
+                <div class="destination-header">
+                    <h2 id="destination-name"></h2>
+                    <p id="destination-country"></p>
+                </div>
+                <div class="destination-content">
+                    <div class="destination-description">
+                        <p id="destination-desc"></p>
+                        <div class="destination-stats">
+                            <div class="stat">
+                                <i class="fas fa-users"></i>
+                                <span id="destination-population"></span>
+                            </div>
+                            <div class="stat">
+                                <i class="fas fa-globe"></i>
+                                <span id="destination-timezone"></span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Photo Gallery Section -->
+    <section id="gallery" class="gallery-section">
+        <div class="container">
+            <h2 class="section-title">Photo Gallery</h2>
+            <div class="gallery-grid" id="gallery-grid">
+                <!-- Photos will be populated by JavaScript -->
+            </div>
+        </div>
+    </section>
+
+    <!-- Weather Section -->
+    <section id="weather" class="weather-section">
+        <div class="container">
+            <h2 class="section-title">Weather Information</h2>
+            <div class="weather-container">
+                <div class="weather-search">
+                    <input type="text" id="weather-location" placeholder="Enter city name for weather..." />
+                    <button id="weather-search-btn" class="weather-btn">
+                        <i class="fas fa-cloud-sun"></i> Get Weather
+                    </button>
+                </div>
+                <div class="weather-display" id="weather-display">
+                    <!-- Weather information will be populated by JavaScript -->
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Loading Spinner -->
+    <div class="loading-spinner hidden" id="loading-spinner">
+        <div class="spinner"></div>
+        <p>Loading...</p>
+    </div>
+
+    <!-- Modal for Full-Size Images -->
+    <div class="modal hidden" id="image-modal">
+        <div class="modal-content">
+            <span class="close-modal" id="close-modal">&times;</span>
+            <img id="modal-image" src="" alt="Full size image">
+            <div class="modal-info">
+                <p id="modal-description"></p>
+                <a id="modal-photographer" href="#" target="_blank"></a>
+            </div>
+        </div>
+    </div>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-content">
+                <div class="footer-section">
+                    <h3>Travel Explorer</h3>
+                    <p>Your gateway to discovering amazing destinations around the world.</p>
+                </div>
+                <div class="footer-section">
+                    <h4>Quick Links</h4>
+                    <ul>
+                        <li><a href="#home">Home</a></li>
+                        <li><a href="#destinations">Destinations</a></li>
+                        <li><a href="#gallery">Gallery</a></li>
+                        <li><a href="#weather">Weather</a></li>
+                    </ul>
+                </div>
+                <div class="footer-section">
+                    <h4>Powered By</h4>
+                    <p>Unsplash API for beautiful photos</p>
+                    <p>OpenWeatherMap API for weather data</p>
+                </div>
+            </div>
+            <div class="footer-bottom">
+                <p>&copy; 2024 Travel Explorer. Built for IBM Project.</p>
+            </div>
+        </div>
+    </footer>
+
+    <script src="js/script.js"></script>
+</body>
+</html>
