@@ -14,7 +14,9 @@ A modern, responsive web application for exploring travel destinations around th
 
 ## 🚀 Live Demo
 
-Open `index.html` in your web browser to see the application in action.
+🌐 **Live Website**: [https://travel-explorer-omega.vercel.app/](https://travel-explorer-omega.vercel.app/)
+
+You can also run it locally by opening `index.html` in your web browser.
 
 ## 📋 Prerequisites
 
